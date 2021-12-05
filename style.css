@@ -24,7 +24,7 @@ img {
 a {
 	color: white;
 }
-.navbar a, .navbar--footer a {
+.navbar__link, .navbar--footer a {
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
     color: white;
@@ -33,7 +33,7 @@ a {
     background-size: 0% 2px;
     transition: background-size .3s;
 }
-.navbar a:hover, .navbar a:focus, .navbar--footer a:hover, .navbar--footer a:focus {
+.navbar__link:hover, .navbar__link:focus, .navbar--footer a:hover, .navbar--footer a:focus {
     background-size: 100% 2px;
 }
 ul {
@@ -88,6 +88,9 @@ h3 {
 .navbar {
 	display: flex;
 	flex-direction: column;
+}
+.navbar__brand {
+
 }
 .navbar__collapse {
 	display: flex;
